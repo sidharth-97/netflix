@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(./images/IN-en-20230417-popsignuptwoweeks-perspective_alpha_website_large.webp);
+}
+.home-data{
+    height: 90vh;
+}
+.red{
+    background-color: rgb(229, 9, 20);
+}
+h2{
+    height: 52px;
+}
+.home-data h1{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.home-data p{
+    font-weight: 400;
+}
+.dropdown{
+    min-width: auto;
+    width: auto;
+}
+.form-control{
+    background-color: white;
+    
+}
+.form-floating > .form-control::placeholder {
+    color: white;
+}
+.tv{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video {
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    top: 46%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+}
+.video2 {
+    position: absolute;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    top: 32%;
+    left: 47%;
+    width: 100%;
+    height: 100%;
+    max-width: 60%;
+    max-height: 47%;
+  }
+
+
+.image img{
+    width: 100%;  
+}
+.faq{
+    background-color: black;
+}
+.accordion-item{
+    background-color: grey;
+}
+.dark{
+    background-color:rgba(45, 45, 45, 1) ;
+
+}
+.accordion-button:not(.collapsed) {
+    color:white ;
+    background-color:rgba(45, 45, 45, 1) ;
+}
+.accordion-button {
+    background-color:rgba(45, 45, 45, 1) ;
+    color: white;
+}
+.white{
+    color:white
+}
+.accordion-button:not(.collapsed)::after {
+    background-image:url(/images/plus.svg);
+    transform: rotate(-45deg);
+
+}
+.accordion-button::after {
+    background-image:url(/images/plus.svg);
+}
+.accordion-button:hover {
+    background: grey;
+}
+footer{
+    background-color: black;
+    text-align: left;
+}
+.table{
+    color: white;
+    
+}
+td,th{
+    border-style: none;
+    text-align: left;
+}
+h1{
+    height: 8rem;
+}
+.to-top{
+    position: fixed;
+    bottom: 16px;
+    right: 25px;
+    border-radius: 50%;
+    size: 20px;
+}
+.to-top:hover{
+    background:grey;
+    padding: 1px;
+}
+
+@media (max-width:500px) {
+    span{
+     display: none;
+    }
+    .logo img{
+        width: 90%;
+    }
+    td{
+        font-size: 13px;
+    }
+    .home-data h1{
+        height: 14rem;
+    }
+}
+@media (min-width:500px) {
+    .last{
+        padding-left: 20px;
+    }
+    .que{
+        padding-left: 20px;
+    }
+    
+}
+@media (min-width:850px) {
+    .last{
+        padding-left: 28px;
+    }
+    .que{
+        padding-left: 28px;
+    }
+    
+    
+}
+@media (min-width:1200px) {
+    .last{
+        padding-left: 40px;
+    }
+    .que{
+        padding-left: 40px;
+    }
+    
+    
+}
